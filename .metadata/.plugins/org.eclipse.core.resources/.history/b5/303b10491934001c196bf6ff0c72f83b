@@ -1,0 +1,19 @@
+
+public class TestarLivro {
+
+	public static void main(String[] args) {
+
+		Livro livro1 = new Livro();
+
+		livro1.setCodigo(1);
+		livro1.setPreco(37.00);
+		livro1.setDescricao("tecnologia");
+		System.out.println(livro1.getCodigo());
+		System.out.println(livro1.getPreco());
+		System.out.println(livro1.getDescricao());
+		// professor1.setSalario(1000.00);
+
+		// System.out.println(professor1.getSalario());
+	}
+
+}

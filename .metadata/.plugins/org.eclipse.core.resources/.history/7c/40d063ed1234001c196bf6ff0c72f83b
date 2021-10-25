@@ -1,0 +1,10 @@
+
+public class Livro extends Produto {
+
+	public void exibirDados() {
+		Livro livro1 = new Livro();
+		livro1.setCodigo(25);
+		livro1.setPreco(58.25);
+		livro1.setDescricao("Livro sobre java");
+	}
+}

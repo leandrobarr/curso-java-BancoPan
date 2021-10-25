@@ -1,0 +1,34 @@
+package for_json;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class ModificaForWhile {
+
+	public static void main(String[] args) {
+
+		// FOR util se conhece o tamanho do array
+
+		//for (int i = 0; i < 5; i++) {
+		//	System.out.println(i);
+		//}
+
+		// Use um forloop para imprimir "consegui" 5 vezes e o numero da tentativa
+
+		String example = "2021.10.10";
+		Pattern pattern = Pattern.compile("(\\d{4})[.](\\\\d{2})[.](\\\\d{2})");
+		Matcher matcher = pattern.matcher(example);
+		// verifies full match
+
+		while (matcher.find()) {
+			System.out.println(matcher.group());
+		}
+
+		// while pegando so os numeros
+		Pattern p = Pattern.compile("\\d+");
+		Matcher m = p.matcher("hello1234goodboy789very2345");
+		while (m.find()) {
+			System.out.println(m.group());
+		}
+	}
+}

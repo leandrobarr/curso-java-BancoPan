@@ -1,0 +1,21 @@
+package Join;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Usuario {
+	@Id
+	private String login;
+	private String nomeCompleto;
+	private String senha;
+	@ManyToMany
+	@JoinTable(name = "usuarios_roles", joinColumns = @JoinColumn(name = "usuario_id", referencedColumnName = "login"), inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "nomeRole"))
+	private List<Role> roles;
+
+}

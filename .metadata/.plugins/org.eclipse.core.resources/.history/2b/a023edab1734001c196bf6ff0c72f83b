@@ -1,0 +1,9 @@
+
+public class Livro extends Produto {
+
+	//public void exibirDados() {
+	//	System.out.println("código " + getCodigo());
+	//	System.out.println("Descricao: " + getDescricao());
+	//	System.out.println("Preço" + getPreco());
+//	}
+}

@@ -1,0 +1,16 @@
+package Join;
+
+import java.util.List;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+
+@Entity
+public class Role {
+	@Id
+	private String nomeRole;
+	@ManyToMany(mappedBy = "roles")
+	private List<Usuario> usuarios;
+
+}
