@@ -6,9 +6,13 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="/home/leandro/Documentos/curso-java/join"/>
+			<item value="/home/leandro/Documentos/curso-java/app2"/>
+			<item value="/home/leandro/Documentos/curso-java/app1"/>
+			<item value="/home/leandro/Documentos/curso-java/crud-pan"/>
 			<item value="/home/leandro/Documentos/curso-java"/>
+			<item value="/media/leandro/LEANDRU&apos;S/arquivos java/aula5-app-spring-datas/aula5-app-spring-datas"/>
 			<item value="/media/leandro/LEANDRU&apos;S/arquivos java"/>
+			<item value="/home/leandro/Documentos/curso-java/join"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

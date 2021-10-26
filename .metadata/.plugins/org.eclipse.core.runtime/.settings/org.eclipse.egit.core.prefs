@@ -1,4 +1,4 @@
-GitRepositoriesView.GitDirectories=/home/leandro/Documentos/curso-java/crud-pan/.git\:
-GitRepositoriesView.GitDirectories.relative=crud-pan/.git\:
+GitRepositoriesView.GitDirectories=/home/leandro/Documentos/curso-java/crud-pan/.git\:/home/leandro/Documentos/curso-java/.git\:
+GitRepositoriesView.GitDirectories.relative=crud-pan/.git\:.git\:
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
